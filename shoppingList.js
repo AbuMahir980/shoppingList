@@ -3,7 +3,7 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
-	const myItem = input.value;
+	const myItem = input.value.toLowerCase();
 	input.value = "";
 
 	const listItem = document.createElement("li");
