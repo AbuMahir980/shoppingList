@@ -28,14 +28,20 @@ div#container{
     background-color: #ABF0FF;
     margin: 0 450px;
     border-radius: 5px;
-    border: 2px solid #FEDE87
-    padding
+    border: 2px solid #FEDE87;
 }
 
 #container #mini-container {
     font-size: 20px;
     margin: 10px;
 }
+
+#mini-container label{
+    color: #8935A5;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
 li {
 	margin-bottom: 10px;
 }
