@@ -16,6 +16,20 @@ h1{
     color: #1E32A5;
     border-radius: 5px;
     padding: 5px;
+    border: 2px solid #ABF0FF;
+}
+
+div#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #ABF0FF;
+    margin: 0 450px;
+    border-radius: 5px;
+    border: 2px solid #FEDE87
+    padding
 }
 li {
 	margin-bottom: 10px;
