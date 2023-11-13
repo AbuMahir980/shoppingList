@@ -42,6 +42,17 @@ div#container{
     margin-right: 10px;
 }
 
+#mini-container input{
+    padding: 3px;
+    border-radius: 3px;
+    border: 2px solid #FEDE87;
+    background-color: whitesmoke;
+}
+#mini-container input:focus{
+    /* color: #ABF0FF; */
+    /* background-color: red; */
+    /* border: 3px solid #ABF0FF; */
+}
 li {
 	margin-bottom: 10px;
 }
