@@ -37,7 +37,7 @@ div#container{
 }
 
 #mini-container label{
-    color: #8935A5;
+    color: #1E32A5;
     font-weight: 700;
     margin-right: 10px;
 }
@@ -48,10 +48,17 @@ div#container{
     border: 2px solid #FEDE87;
     background-color: whitesmoke;
 }
-#mini-container input:focus{
-    /* color: #ABF0FF; */
-    /* background-color: red; */
-    /* border: 3px solid #ABF0FF; */
+
+#mini-container button {
+    font-size: 14px;
+    background-color: #FEDE87;
+    border: 2px solid #1E32A5;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 4px;
+    color: #1E32A5;
+    font-weight: 600;
+    cursor: pointer;
 }
 li {
 	margin-bottom: 10px;
