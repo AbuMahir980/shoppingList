@@ -60,12 +60,35 @@ div#container{
     font-weight: 600;
     cursor: pointer;
 }
+
+ul{
+    margin-left: -10px;
+    font-size: 18px;
+    color:#1E32A5;
+    font-weight: 600;
+    
+}
 li {
 	margin-bottom: 10px;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-left: 3px solid transparent;
+    padding-left: 5px;
 }
 
+li:hover{
+    border-left: 3px solid #FF7273;    
+}
 li button {
-	font-size: 8px;
-	margin-left: 20px;
-	color: #666;
+    float: right;
+	font-size: 14px;
+	color: #1E32A5;
+    margin-left: 330px;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #FEDE87;
+    border: 2px solid #1E32A5;
 }
